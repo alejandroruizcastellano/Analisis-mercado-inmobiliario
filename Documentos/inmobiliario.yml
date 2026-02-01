@@ -1,0 +1,23 @@
+name: inmobiliario
+channels:
+  - conda-forge
+#pip-repositories:
+#  - https://pypi.org/simple
+dependencies:
+- python=3.13.2
+- pandas=2.2.3
+- numpy=2.2.4
+- matplotlib-base=3.10.0
+- seaborn=0.13.2
+- scipy=1.15.2
+- statsmodels=0.14.4
+- sqlalchemy=2.0.37
+- openpyxl=3.1.5
+- ipykernel=6.29.5
+- ipython=9.2.0
+- jupyter_client=8.6.3
+- jupyter_core=5.7.2
+- notebook=7.4.1
+- pip
+- pip:
+- joblib==1.4.2
